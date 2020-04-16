@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group>
+    <Item Text="Home" NavigateUrl="http://www.listofchampions.com/DefaultLOC.aspx"></Item>
+      <Item Text="Select State">
+        <Group Flow="Vertical">
+          <Item Text="Illinois - List of Champions" NavigateURL="http://IL.listofchampions.com" />
+          <Item Text="Michigan - List of Champions" NavigateURL="http://MI.listofchampions.com" />
+          <Item Text="Oklahoma - List of Champions" NavigateURL="http://www.iwasatthegame.com" />
+          <Item Text="Texas - List of Champions" NavigateURL="http://TX.listofchampions.com" />
+        </Group>
+      </Item>      
+    <Item Text="State Title Talk" NavigateURL="http://www.statetitletalk.com">
+    </Item>
+  </Group>
+</Menu>

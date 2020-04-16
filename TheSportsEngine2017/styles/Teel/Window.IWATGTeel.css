@@ -1,0 +1,67 @@
+.RadWindow_IWATGTeel {
+  border-color: #c4c4c4;
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  border-radius: 4px; }
+  .RadWindow_IWATGTeel .rwTitleBar {
+    border-color: #e3e3e3;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3);
+    border-radius: 3px 3px 0 0; }
+  .RadWindow_IWATGTeel .rwCommandButton:hover {
+    color: #0e8aa0; }
+  .RadWindow_IWATGTeel .rwContent {
+    border-color: #d9d9d9;
+    color: #5f5f5f;
+    background-color: #ffffff; }
+  .RadWindow_IWATGTeel .rwDialogButtons button {
+    border-color: #c4c4c4;
+    color: #5f5f5f;
+    background-color: #e3e3e3;
+    background-image: linear-gradient(white, #e3e3e3); }
+  .RadWindow_IWATGTeel .rwDialogButtons button:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .RadWindow_IWATGTeel .rwDialogButtons button:active {
+    border-color: #0b6e7f;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none; }
+  .RadWindow_IWATGTeel .rwPromptDialog .rwOkBtn,
+  .RadWindow_IWATGTeel .rwConfirmDialog .rwOkBtn {
+    border-color: #0e8aa0;
+    color: #ffffff;
+    background-color: #0e8aa0;
+    background-image: linear-gradient(#12b2cf, #0e8aa0); }
+  .RadWindow_IWATGTeel .rwPromptDialog .rwOkBtn:hover,
+  .RadWindow_IWATGTeel .rwConfirmDialog .rwOkBtn:hover {
+    border-color: #0092ab;
+    color: #ffffff;
+    background-color: #0092ab;
+    background-image: linear-gradient(#00acca, #0092ab); }
+  .RadWindow_IWATGTeel .rwPromptDialog .rwOkBtn:active,
+  .RadWindow_IWATGTeel .rwConfirmDialog .rwOkBtn:active {
+    border-color: #0b6e7f;
+    color: #ffffff;
+    background-color: #14afca;
+    background-image: none; }
+  .RadWindow_IWATGTeel .rwPromptInput {
+    border-color: #c4c4c4;
+    color: #3b3b3b;
+    background-color: #ffffff; }
+  .RadWindow_IWATGTeel .rwPromptInput:hover {
+    border-color: #0092ab;
+    color: black;
+    background-color: #ffffff; }
+  .RadWindow_IWATGTeel .rwPromptInput:active,
+  .RadWindow_IWATGTeel .rwPromptInput:focus {
+    border-color: #0b6e7f;
+    color: #333333;
+    background-color: #ffffff; }
+  .RadWindow_IWATGTeel .rwLoading.rwStatusBar {
+    background-image: url('<%=WebResource("Telerik.Web.UI.Skins.IWATGTeel.Common.loading_small.gif")%>'); }
+  .RadWindow_IWATGTeel.rwLoading .rwExternalContent {
+    background-image: url('<%=WebResource("Telerik.Web.UI.Skins.IWATGTeel.Common.loading.gif")%>'); }

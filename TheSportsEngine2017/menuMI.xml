@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group>
+    <Item Text="Home" NavigateUrl="http://www.iwasatthegame.com"></Item>
+    <Item Text="List of Champions" >
+      <Group>
+          <Item Text="Baseball">
+            <Group Flow="Vertical">
+                <Item Text="State Champions (by Year)" NavigateURL="BAStateChampionships.aspx" />
+                <Item Text="# of Championships" NavigateURL="BAStateChampionshipCount.aspx" />
+            </Group>                  
+          </Item>
+          <Item Text="Basketball" >
+              <Group Flow="Vertical">
+                <Item Text="Basketball Boys">
+                    <Group Flow="Vertical">
+                        <Item Text="State Champions (by Year)" NavigateURL="BKBStateChampionships.aspx" />
+                        <Item Text="# of Championships" NavigateURL="BKBStateChampionshipCount.aspx" />
+                        <Item Text="Coaches Championships" NavigateURL="BKBStateChampionshipCoaches.aspx"></Item>
+                    </Group>
+                </Item>
+                <Item Text="Basketball Girls">
+                    <Group Flow="Vertical">
+                        <Item Text="State Champions (by Year)" NavigateURL="BKGStateChampionships.aspx" />
+                        <Item Text="# of Championships (Girls)" NavigateURL="BKGStateChampionshipCount.aspx" />
+                        <Item Text="Coaches Championships" NavigateURL="BKGStateChampionshipCoaches.aspx"></Item>
+                    </Group>
+                </Item>
+              </Group>
+          </Item>
+        <Item Text="Bowling">
+          <Group Flow="Vertical">
+            <Item Text="State Champions (by Year)" NavigateURL="BOStateChampionships.aspx" />
+            <Item Text="# of Championships (Boys)" NavigateURL="BOBStateChampionshipCount.aspx" />
+            <Item Text="# of Championships (Girls)" NavigateURL="BOGStateChampionshipCount.aspx" />
+          </Group>
+        </Item>       
+          <Item Text="Cheerleading">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="CHStateChampionships.aspx" />
+                  <Item Text="# of Championships" NavigateURL="CHGStateChampionshipCount.aspx" />
+              </Group>              
+          </Item>
+          <Item Text="Cross Country">
+               <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="CCStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="CCBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="CCGStateChampionshipCount.aspx" />
+              </Group>              
+          </Item>
+          <Item Text="Football">
+            <Group Flow="Vertical">
+                <Item Text="State Champions (by Year)" NavigateURL="FBStateChampionships.aspx" />
+                <Item Text="# of Championships" NavigateURL="FBStateChampionshipCount.aspx" />
+                <Item Text="# of Runners-Up" NavigateURL="FBStateRunnerUpCount.aspx" />
+                <Item Text="Coaches Championships" NavigateURL="FBStateChampionshipCoaches.aspx"></Item>
+            </Group>              
+          </Item>
+          <Item Text="Golf">
+               <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="GOStateChampionships.aspx" />
+              </Group>              
+          </Item>
+        <Item Text="Gymnastics">
+          <Group Flow="Vertical">
+            <Item Text="State Champions (by Year)" NavigateURL="GYMStateChampionships.aspx" />
+            <Item Text="# of Championships" NavigateURL="GYMGStateChampionshipCount.aspx" />
+          </Group>
+        </Item>        
+        <Item Text="Ice Hockey">
+          <Group Flow="Vertical">
+            <Item Text="State Champions (by Year)" NavigateURL="ICEStateChampionships.aspx" />
+            <Item Text="# of Championships" NavigateURL="ICEStateChampionshipCount.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Lacrosse">
+          <Group Flow="Vertical">
+            <Item Text="State Champions (by Year)" NavigateURL="LAStateChampionships.aspx" />
+            <Item Text="# of Championships (Boys)" NavigateURL="LABStateChampionshipCount.aspx" />
+            <Item Text="# of Championships (Girls)" NavigateURL="LAGStateChampionshipCount.aspx" />
+          </Group>
+        </Item>
+        <Item Text="Skiing">
+          <Group Flow="Vertical">
+            <Item Text="State Champions (by Year)" NavigateURL="SKIStateChampionships.aspx" />
+            <Item Text="# of Championships (Boys)" NavigateURL="SKIBStateChampionshipCount.aspx" />
+            <Item Text="# of Championships (Girls)" NavigateURL="SKIGStateChampionshipCount.aspx" />
+          </Group>
+        </Item>        
+        <Item Text="Soccer" >
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="SOStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="SOBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="SOGStateChampionshipCount.aspx" />
+              </Group>
+          </Item>
+          <Item Text="Softball">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="SBFStateChampionships.aspx" />
+                  <Item Text="# of Championships" NavigateURL="SBFStateChampionshipCount.aspx" />
+              </Group>                    
+          </Item>
+          <Item Text="Swimming">
+               <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="SWStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="SWBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="SWGStateChampionshipCount.aspx" />
+              </Group>             
+          </Item>
+          <Item Text="Tennis" >
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="TNStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="TNBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="TNGStateChampionshipCount.aspx" />
+              </Group>
+          </Item>
+          <Item Text="Track">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="TKStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="TKBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="TKGStateChampionshipCount.aspx" />
+              </Group>    
+          </Item>
+          <Item Text="Volleyball">
+              <Group Flow="Vertical">
+                   <Item Text="State Champions (by Year)" NavigateURL="VBGStateChampionships.aspx" />
+                  <Item Text="# of Championships" NavigateURL="VBGStateChampionshipCount.aspx" />
+              </Group>
+          </Item>
+          <Item Text="Wrestling">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions Wrestling (by Year)" NavigateURL="WRStateChampionships.aspx" />
+                  <Item Text="# of Championships" NavigateURL="WRStateChampionshipCount.aspx" />
+              </Group>              
+          </Item>
+      </Group>
+    </Item>
+  </Group>
+</Menu>

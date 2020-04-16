@@ -1,0 +1,54 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPageIWATGNoMenu.Master.vb" Inherits="TheSportsEngine2017.MasterPageIWATGNoMenu" %>
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Oklahoma High School Basketball</title>
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no, width=device-width" />
+    <link href="styles/base.css" rel="stylesheet" />
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({
+                      google_ad_client: "ca-pub-6403098483302166",
+                      enable_page_level_ads: true
+                 });
+            </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager runat="server"></telerik:RadScriptManager>
+        <div id="wrapper">
+            <telerik:RadPageLayout runat="server" ID="MasterLayout" GridType="Fluid">
+                <Rows>
+                    <telerik:LayoutRow CssClass="header">
+                        <Columns>
+                            <telerik:LayoutColumn Span="12" HiddenXs="true" HiddenSm ="true" SpanMd="12" SpanLg="12" SpanXl="12">
+                                <div class="header">
+                                    <h2><a href="http://www.iwasatthegame.com" target="_blank">www.IWasAtTheGame.com</a></h2>
+                                </div>
+                            </telerik:LayoutColumn>
+                            <telerik:LayoutColumn Span="12" SpanXs="12" SpanSm="12" HiddenMd="true" HiddenLg="true" HiddenXl="true">
+                                <div class="header">
+                                    <h5><a href="http://www.iwasatthegame.com" target="_blank">www.IWasAtTheGame.com</a></h5>
+                                </div>
+                            </telerik:LayoutColumn>
+                        </Columns>
+                    </telerik:LayoutRow>
+                </Rows>
+            </telerik:RadPageLayout>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr style="margin-top: 40px" />
+            <div class="footer">
+               © 2007-2020 IWasAtTheGame.com - Oklahoma High School Sports Historical Society
+            </div>
+        </div>
+    </form>
+</body>
+</html>

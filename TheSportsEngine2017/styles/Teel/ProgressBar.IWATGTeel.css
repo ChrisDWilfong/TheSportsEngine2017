@@ -1,0 +1,35 @@
+.RadProgressBar_IWATGTeel {
+  color: #5f5f5f;
+  background-color: #e3e3e3;
+  background-image: none, linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadProgressBar_IWATGTeel.rpbClassic {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif; }
+  .RadProgressBar_IWATGTeel > .rpbLabelWrapper {
+    border-color: #e3e3e3; }
+  .RadProgressBar_IWATGTeel .rpbStateSelected,
+  .RadProgressBar_IWATGTeel .rpbStateSelected:hover,
+  .RadProgressBar_IWATGTeel .rpbStateSelected:link,
+  .RadProgressBar_IWATGTeel .rpbStateSelected:visited {
+    background-color: #14afca;
+    color: #ffffff;
+    background-image: none, linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadProgressBar_IWATGTeel .rpbChunk {
+    border-color: #e3e3e3; }
+  .RadProgressBar_IWATGTeel .rpbChunk.rpbStateDefault {
+    background-color: #e3e3e3; }
+  .RadProgressBar_IWATGTeel .rpbStateSelected,
+  .RadProgressBar_IWATGTeel .rpbStateSelected:hover,
+  .RadProgressBar_IWATGTeel .rpbStateSelected:link,
+  .RadProgressBar_IWATGTeel .rpbStateSelected:visited,
+  .RadProgressBar_IWATGTeel .rpbChunk.rpbStateSelected {
+    border-color: #0b6e7f; }
+  .RadProgressBar_IWATGTeel.rpbVertical {
+    background-image: none, linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); }
+  .RadProgressBar_IWATGTeel.rpbVertical .rpbStateSelected,
+  .RadProgressBar_IWATGTeel.rpbVertical .rpbStateSelected:hover,
+  .RadProgressBar_IWATGTeel.rpbVertical .rpbStateSelected:link,
+  .RadProgressBar_IWATGTeel.rpbVertical .rpbStateSelected:visited {
+    background-image: none, linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+  .RadProgressBar_IWATGTeel.rpbIndeterminate {
+    background-image: url('<%=WebResource("Telerik.Web.UI.Skins.IWATGTeel.Common.radIndeterminate.gif")%>'); }

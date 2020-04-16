@@ -1,0 +1,27 @@
+﻿.tableStyle
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    height:60px;
+    padding-left: 5px;
+    padding-top: 18px;
+    vertical-align: middle;
+    background-color: #f9fafa;
+}
+
+.tableStyle a {
+    -webkit-appearance: button;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -ms-high-contrast-adjust:none;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: blue;
+    border:none;
+    outline:none;
+    background-color:transparent;
+    appearance: button;
+}
+

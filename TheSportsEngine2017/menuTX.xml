@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group>
+    <Item Text="Home" NavigateUrl="http://www.iwasatthegame.com"></Item>
+    <Item Text="List of Champions" >
+      <Group>
+          <Item Text="Football">
+            <Group Flow="Vertical">
+                <Item Text="State Champions (by Year)" NavigateURL="FBListOfChampions.aspx" />
+                <Item Text="# of Championships" NavigateURL="FBStateChampionshipCount.aspx" />
+                <Item Text="# of Runners-Up" NavigateURL="FBStateRunnerUpCount.aspx" />
+            </Group>              
+          </Item>
+      </Group>
+    </Item>
+  </Group>
+</Menu>

@@ -1,0 +1,91 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPageBaseballNoMenu.Master.vb" Inherits="TheSportsEngine2017.MasterPageBaseballNoMenu" %>
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KD9G5ZC');</script>
+<!-- End Google Tag Manager --> 
+    <title></title>
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <link href="styles/base.css" rel="stylesheet" />
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({
+                      google_ad_client: "ca-pub-6403098483302166",
+                      enable_page_level_ads: true
+                 });
+            </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KD9G5ZC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager runat="server"></telerik:RadScriptManager>
+        <div id="wrapper">
+        <telerik:RadPageLayout runat="server" ID="MasterLayout" GridType="Fluid">
+            <Rows>
+                <telerik:LayoutRow CssClass="header">
+                    <Columns>
+                        <%--Main Nav--%>
+                        <telerik:LayoutColumn Span="12" SpanMd="12" HiddenSm="true" HiddenXs="true">
+                            <a href="#" class="logo">
+                                <img src="images/IWATG/IWATG.baseball.comWEB.png" alt="site logo"/>
+                            </a>
+                            <div class="fb-like" data-href="https://www.facebook.com/pages/I-Was-At-The-Game/185585154854466" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                            <%= Session("facebookLink") %>
+                            <%= Session("twitterLink1") %>
+                            <%= Session("twitterLink2") %>
+                            <%= Session("emailLink") %>
+                        </telerik:LayoutColumn>
+
+                        <telerik:LayoutColumn Span="12" HiddenXl="true" HiddenLg="true" HiddenMd="true" SpanSm="12" SpanXs="12" >
+                            <a href="#" class="logo">
+                                <img src="images/logo.png"/>
+                            </a>
+                        </telerik:LayoutColumn>
+                    </Columns>
+                </telerik:LayoutRow>
+
+                <%--Main--%>
+                <telerik:LayoutRow>
+                    <Columns>
+                        <%--Content--%>
+                        <telerik:CompositeLayoutColumn Span="12" SpanMd="12" SpanSm="12" SpanXs="12">
+                            <Content>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </Content>
+                        </telerik:CompositeLayoutColumn>
+                    </Columns>
+                </telerik:LayoutRow>
+
+                <%--Footer--%>
+                <telerik:LayoutRow>
+                    <Columns>
+                        <telerik:LayoutColumn CssClass="footer">
+                            <hr />
+                            © 2007-2020 IWasAtTheGame.com - Oklahoma High School Sports Historical Society
+                        </telerik:LayoutColumn>
+                    </Columns>
+                </telerik:LayoutRow>
+            </Rows>
+        </telerik:RadPageLayout>
+       </div>
+    </form>
+</body>
+</html>

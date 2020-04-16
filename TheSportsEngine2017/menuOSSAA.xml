@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Item Text="Home" NavigateUrl="http://www.ossaa.com"></Item>
+    <Item Text="List of Champions (by Activity)" NavigateURL="StateChampionshipsActivity.aspx" ></Item>
+    <Item Text="List of Champions (by School)" NavigateURL="StateChampionshipsSchool.aspx"></Item>
+</Menu>

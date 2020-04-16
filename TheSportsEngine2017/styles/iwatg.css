@@ -1,0 +1,105 @@
+﻿body {
+}
+.ButtonYear
+{
+    border-style:none;
+    background-color: transparent;
+    color: Blue;
+    font-family: Verdana;
+    font-size: 12px;
+}
+.Hyperlink
+{
+    font-family: Arial;
+    font-size: 11px;  
+    font-style: italic;
+}
+.Label
+{
+    font-family: Verdana;
+    font-size: 12px;  
+    font-style: italic;
+}
+.LabelGoogle {
+    font-family: Oswald;
+    font-size: 14px;
+}
+
+.DropDownListGoogle {
+    font-family: Khand;
+    font-size: 14px;
+    background-color: yellow;
+}
+
+.LabelState
+{
+    font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+    font-size: 16px;  
+    font-weight: bold;
+    color:Navy;
+}
+.LabelMOBI
+{
+    font-family: Verdana;
+    font-size: 22px;  
+    font-style: italic;
+}
+.DropDownList
+{
+    font-family: Verdana;
+    font-size: small;  
+    background-color: #FFCC99;
+    font-weight: 700;
+}
+.DropDownListMOBI
+{
+    font-family: Arial;
+    font-size: 40px;  
+    background-color: #faf8b4;
+}
+.Button
+{
+    font-family:Arial;
+    font-size: 11px;
+    background-color: Navy;
+    color : White;
+    height: 24px;
+    width: 98%;
+    font-weight: bold;
+}
+.ButtonMOBI
+{
+    font-family:Arial;
+    font-size: 20px;
+    background-color: Navy;
+    color : White;
+    height: 34px;
+    width: 98%;
+    font-weight: bold;
+}
+
+.ViewStyle
+{
+        background-color:White;
+        font-size:medium;
+        border-left: 1px solid blue;
+        border-bottom: 1px solid blue;
+        border-right: 1px solid blue;
+        border-top:1px solid blue;
+        position:absolute;
+        top:35px;
+        height:300px;
+        z-index:-25;
+}
+.ViewStyle:hover
+{
+    text-decoration:underline;
+}
+
+.MenuStyle
+{
+    width:600px;
+    font-family:Georgia;    
+    background-color:Black;
+    color:White;       
+}

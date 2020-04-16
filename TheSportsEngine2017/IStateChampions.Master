@@ -1,0 +1,42 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="IStateChampionsMaster.Master.vb" Inherits="TheSportsEngine2017.IStateChampionsMaster" %>
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KD9G5ZC');</script>
+<!-- End Google Tag Manager --> 
+    <title>Oklahoma High School Sports | Oklahoma State Champions</title>
+    <meta name="description" content="I Was At The Game (IWasAtTheGame.com) and The Sports Engine (TheSportsEngine.com) bring you State Champions from High School Sports around the Nation." />
+    <meta name="keywords" content="I Was At The Game, iwasatthegame.com, sports, oklahoma, high school, basketball, football, baseball, high school state champions, sports engine, state champions, oklahoma state champions, state championships, OSSAA, oklahoma high school rankings" />
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({
+                      google_ad_client: "ca-pub-6403098483302166",
+                      enable_page_level_ads: true
+                 });
+            </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KD9G5ZC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <form id="form1" runat="server">
+    <div style="background-image: url('sitebg.gif');">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

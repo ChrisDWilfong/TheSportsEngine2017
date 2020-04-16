@@ -1,0 +1,2 @@
+﻿IP Address Flags??
+' 192.173.55.127 : NSU - Tahlequah (9/27/2017)

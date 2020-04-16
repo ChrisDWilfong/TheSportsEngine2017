@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group>
+    <Item Text="Home" NavigateUrl="http://www.iwasatthegame.com"></Item>
+    <Item Text="List of Champions" >
+      <Group>
+          <Item Text="Baseball">
+            <Group Flow="Vertical">
+                <Item Text="State Champions (by Year)" NavigateURL="BAStateChampionships.aspx" />
+                <Item Text="# of Championships" NavigateURL="BAStateChampionshipCount.aspx" />
+                <Item Text="# of Runners-Up" NavigateURL="BAStateRunnersUpCount.aspx" />
+            </Group>                  
+          </Item>
+          <Item Text="Baseball (Fall)">
+            <Group Flow="Vertical">
+                <Item Text="State Champions (by Year)" NavigateURL="BAFStateChampionships.aspx" />
+                <Item Text="# of Championships" NavigateURL="BAFStateChampionshipCount.aspx" />
+                <Item Text="# of Runners-Up" NavigateURL="BAFStateRunnersUpCount.aspx" />
+            </Group>               
+          </Item>
+          <Item Text="Basketball" >
+              <Group Flow="Vertical">
+                <Item Text="Basketball Boys">
+                    <Group Flow="Vertical">
+                        <Item Text="State Champions (by Year)" NavigateURL="BKBStateChampionships.aspx" />
+                        <Item Text="# of Championships (Boys)" NavigateURL="BKBStateChampionshipCount.aspx" />
+                        <Item Text="# of Runners-Up (Boys)" NavigateURL="BKBStateRunnersUpCount.aspx" />
+                    </Group>
+                </Item>
+                <Item Text="Basketball Girls">
+                    <Group Flow="Vertical">
+                        <Item Text="State Champions (by Year)" NavigateURL="BKGStateChampionships.aspx" />
+                        <Item Text="# of Championships (Girls)" NavigateURL="BKGStateChampionshipCount.aspx" />
+                        <Item Text="# of Runners-Up (Girls)" NavigateURL="BKGStateRunnersUpCount.aspx" />
+                    </Group>
+                </Item>
+              </Group>
+          </Item>
+          <Item Text="Cheerleading">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="CHStateChampionships.aspx" />
+                  <Item Text="# of Championships" NavigateURL="CHStateChampionshipCount.aspx" />
+              </Group>              
+          </Item>
+          <Item Text="Cross Country">
+               <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="CCStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="zCCBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="zCCGStateChampionshipCount.aspx" />
+              </Group>              
+          </Item>
+          <Item Text="Football">
+            <Group Flow="Vertical">
+                <Item Text="State Champions (by Year)" NavigateURL="FBStateChampionships.aspx" />
+                <Item Text="# of Championships" NavigateURL="FBStateChampionshipCount.aspx" />
+                <Item Text="# of Runners-Up" NavigateURL="FBStateRunnersUpCount.aspx" />
+            </Group>              
+          </Item>
+          <Item Text="Golf">
+               <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="GOStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="zGOBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="zGOGStateChampionshipCount.aspx" />
+              </Group>              
+          </Item>
+          <Item Text="Soccer" >
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="SOStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="SOBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="SOGStateChampionshipCount.aspx" />
+              </Group>
+          </Item>
+          <Item Text="Softball (Fast Pitch)">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="SBFStateChampionships.aspx" />
+                  <Item Text="# of Championships" NavigateURL="SBFtateChampionshipCount.aspx" />
+              </Group>                    
+          </Item>
+          <Item Text="Softball (Slow Pitch)">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="SBSStateChampionships.aspx" />
+                  <Item Text="# of Championships" NavigateURL="SBStateChampionshipCount.aspx" />
+              </Group>                
+          </Item>
+          <Item Text="Swimming">
+               <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="SWtateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="SWBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="SWGStateChampionshipCount.aspx" />
+              </Group>             
+          </Item>
+          <Item Text="Tennis" >
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="TNStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="TNBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="TNGStateChampionshipCount.aspx" />
+              </Group>
+          </Item>
+          <Item Text="Track">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions (by Year)" NavigateURL="TKStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="TKBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="TKGStateChampionshipCount.aspx" />
+              </Group>    
+          </Item>
+          <Item Text="Volleyball">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions Boys (by Year)" NavigateURL="VBBStateChampionships.aspx" />
+                  <Item Text="State Champions Girls (by Year)" NavigateURL="VBGStateChampionships.aspx" />
+                  <Item Text="# of Championships (Boys)" NavigateURL="VBBStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships (Girls)" NavigateURL="VBGStateChampionshipCount.aspx" />
+              </Group>
+          </Item>
+          <Item Text="Wrestling">
+              <Group Flow="Vertical">
+                  <Item Text="State Champions Wrestling (by Year)" NavigateURL="WRStateChampionships.aspx" />
+                  <Item Text="State Champions Wrestling Dual (by Year)" NavigateURL="WRDStateChampionships.aspx" />
+                  <Item Text="# of Championships" NavigateURL="WRStateChampionshipCount.aspx" />
+                  <Item Text="# of Championships Dual" NavigateURL="WRDStateChampionshipCount.aspx" />
+              </Group>              
+          </Item>
+      </Group>
+    </Item>
+    <Item Text="Just Football">
+        <Item Text="Spacer"></Item>
+        <Item Text="Season Scores" NavigateURL="FBGames.aspx"></Item>
+        <Item Text="ALL-TIME W-L Records" NavigateURL="FBAllTimeWL.aspx"></Item>
+        <Item Text="Head To Head" NavigateURL="FBH2H.aspx"></Item>
+        <Item Text="District Standings" NavigateURL="FBDistricts.aspx"></Item>
+        <Item Text="Playoffs">
+            <Group Flow="Vertical">
+                <Item Text="ALL-TIME Playoff Totals" NavigateURL="FBPlayoffTotals.aspx"></Item>
+                <Item Text="Coaches State Championships" NavigateURL="../docs/2016OKCoachesStateChampionships.pdf" target="_blank"></Item>
+                <Item Text="Consecutive Playoff Years ALL-TIME" NavigateURL="FBPlayoffStreaks.aspx" />
+                <Item Text="Consecutive Playoff Years CURRENT" NavigateURL="FBPlayoffStreaksC.aspx" />
+                <Item Text="Consecutive Playoff Years ALL-TIME (by School)" NavigateURL="FBPlayoffStreaksS.aspx" />
+            </Group>
+        </Item>
+        <Item Text="Records">
+            <Group Flow="Vertical">
+                <Item Text="All-Time Coaching W/L" NavigateURL="../docs/2016-All-Time_FootballRecords_Coaching.pdf" Target="_blank"></Item>
+                <Item Text="Season Passing Records" NavigateURL="../docs/2016-All-Time_SeasonFootballRecords_Passing.pdf" Target="_blank"></Item>
+                <Item Text="Season Rushing Records" NavigateURL="../docs/2016-All-Time_SeasonFootballRecords_Rushing.pdf" Target="_blank"></Item>
+                <Item Text="Season Receiving and Int Records" NavigateURL="../docs/2016-All-Time_SeasonFootballRecords_RecAndInts.pdf" Target="_blank"></Item>
+            </Group>
+        </Item>
+        <Item Text="Statistics">
+            <Group Flow="Vertical">
+                <Item Text="2016 and 2015 Seasons" NavigateURL="../docs/2016OKFootballStats_16-15.pdf" Target="_blank"></Item>
+                <Item Text="2014 and 2013 Seasons" NavigateURL="../docs/2016OKFootballStats_14-13.pdf" Target="_blank"></Item>
+                <Item Text="2012 and 2011 Seasons" NavigateURL="../docs/2016OKFootballStats_12-11.pdf" Target="_blank"></Item>
+                <Item Text="2010 and 2009 Seasons" NavigateURL="../docs/2016OKFootballStats_10-09.pdf" Target="_blank"></Item>
+                <Item Text="2008 and 2007 Seasons" NavigateURL="../docs/2016OKFootballStats_08-07.pdf" Target="_blank"></Item>
+                <Item Text="2006 and 2005 Seasons" NavigateURL="../docs/2016OKFootballStats_06-05.pdf" Target="_blank"></Item>
+                <Item Text="2004 and 2003 Seasons" NavigateURL="../docs/2016OKFootballStats_04-03.pdf" Target="_blank"></Item>
+                <Item Text="2002 and 2001 Seasons" NavigateURL="../docs/2016OKFootballStats_02-01.pdf" Target="_blank"></Item>
+            </Group>
+        </Item>
+    </Item>        
+    <Item Text="Non-Athletic">
+        <Item Text="Spacer"></Item>
+        <Item Text="Academic Bowl">
+            <Group Flow="Vertical">
+                <Item Text="Academic Bowl by Year" NavigateURL="NAABowlStateChampionshipsYear.aspx"></Item>
+                <Item Text="Academic Bowl by School" NavigateURL="NAABowlStateChampionshipsSchool.aspx"></Item>
+            </Group>              
+        </Item>
+        <Item Text="Jazz Band">
+            <Group Flow="Vertical">
+                <Item Text="Jazz Band by Year" NavigateURL="NAJazzStateChampionshipsYear.aspx"></Item>
+                <Item Text="Jazz Band by School" NavigateURL="NAJazzStateChampionshipsSchool.aspx"></Item>
+            </Group>                
+        </Item>
+        <Item Text="One-Act Play">
+            <Group Flow="Vertical">
+                <Item Text="One-Act Play by Year" NavigateURL="NAOneActStateChampionshipsYear.aspx"></Item>
+                <Item Text="One-Act Play by School" NavigateURL="NAOneActStateChampionshipsSchool.aspx"></Item>
+            </Group>                 
+        </Item>
+        <Item Text="Speech/Debate">
+            <Group Flow="Vertical">
+                <Item Text="Speech/Debate by Year" NavigateURL="NASpeechDebateStateChampionshipsYear.aspx"></Item>
+                <Item Text="Speech/Debate by School" NavigateURL="NASpeechDebateStateChampionshipsSchool.aspx"></Item>
+            </Group>          
+        </Item>
+    </Item>
+    <Item Text="OLD IWasAtTheGame.com" NavigateURL="http://ok.iwasatthegame.com" Target="_blank"></Item>
+  </Group>
+</Menu>

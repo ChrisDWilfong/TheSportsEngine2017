@@ -1,0 +1,37 @@
+﻿body {
+}
+
+.headerTitle {
+    font-family:Bowlby One;
+    font-size: 2.25em;
+    color: black;
+}
+
+.headerDetail {
+    font-family:Bowlby One;
+    font-size: 2em;
+    color:maroon;
+}
+
+.info {
+    font-family: Ewart;
+    font-size: 14px;
+}
+
+.rowSport {
+    font-family:Holtwood One SC;
+    font-size: 1.75em;
+    background-color: black;
+    color: white;
+    height: 36px;
+}
+
+.rowYears {
+    font-family:Saira Extra Condensed;
+    font-size: 1.75em;
+    background-color: lightyellow;
+    font-weight: bold;
+    color: black;
+    width: 90%;
+}
+

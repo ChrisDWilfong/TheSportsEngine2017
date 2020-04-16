@@ -1,0 +1,26 @@
+﻿
+.demo-container {
+    width: 1250px;
+    margin: 0 auto;
+}
+ 
+.left-image-gallery {
+    display: inline-block;
+    float: left;
+    padding-top: -50px;
+}
+ 
+.right-image-gallery {
+    display: inline-block;
+    float: left;
+}
+ 
+@media (max-width: 1680px) {
+    .demo-container {
+        width: 600px;
+    }
+ 
+    .right-image-gallery {
+        margin-top: 30px;
+    }
+}

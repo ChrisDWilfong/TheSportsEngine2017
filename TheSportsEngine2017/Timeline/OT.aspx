@@ -1,0 +1,177 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="OT.aspx.vb" Inherits="TheSportsEngine2017.OT" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Overtimes in Oklahoma High School Football</title>
+    <link href="timeline.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lalezar' rel='stylesheet' type='text/css' />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <script src="css/font-awesome/css/font-awesome.css"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="ht tps://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@IWasAtTheGame" />
+    <meta name="twitter:title" content="Oklahoma High School Football Overtimes" />
+    <meta name="twitter:description" content="Ever wonder when overtimes started in Oklahoma High School Football and how?  Here's the answer..." />
+    <meta name="twitter:image" content="http://www.iwasatthegame.com/TwitterCards/IWATG_Logo_Football.png" />
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div style="font-family:Oswald;font-weight:bold;font-size:48px;color:white;text-align:center;">
+        OVERTIME IN OKLAHOMA HIGH SCHOOL FOOTBALL
+    </div>
+    <div style="font-family:Oswald;font-weight:normal;font-size:x-large;color:yellow;text-align:center;">
+        from www.IWasAtTheGame.com<br /><br />
+    </div>
+    <div style="font-size:large;color:white;text-align:center;">Overtimes are a part of High School Football here in Oklahoma but that has not always been the case.<br />Ever wonder how and when things changed?<br />Here's a timeline of the events that brought us Overtime in Oklahoma High School Football.<br /><br /></div>
+    <div class="timeline">
+        <div class="container left">
+            <div class="content">
+                <h2>Upgrade of Championships?</h2>
+                <h5><span class="glyphicon glyphicon-time"></span>December 1970</h5>
+                <p>Immediately following the football season, principals and football coaches were asked to evaluate the championship football plan and make suggestions that, in their opinion, would upgrade the administration of the championships plan.</p>
+                <p>Those suggestions were gathered and presented to the Football Advisory Committee to for evaluation and to make any recommendations that, in their opinion, are needed.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>Extending Games Rejected</h2>
+                <h5>February 13, 1971 </h5>
+                <p>With all of the recommendations in consideration, it was their unanimous opinion that they were not favorable to any championship playoff plan would extend a football game beyond it regular playing time.</p>
+                <p>They did propose that the following playoff change be submitted to the OSSAA Board for approval.  “Add third paragraph to Rule 14, Section 9, Tie Games Add – (c) If a final championship football game ends in a tie score, the two tied teams shall be declared co-champions.” </p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>Proposal Printed in April Bulletin</h2>
+                <h5>April 1971</h5>
+                <p>The Board approved the proposal and it was printed in the OSSAA April 1971 Bulletin.</p>
+                <p>This rule abolished penetrations as a deciding factor in state playoff finals.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>Tie Breaker Revisited</h2>
+                <h5>May 1, 1974</h5>
+                <p>At a Football Advisory Meeting, the committee discussed the possibility of a tie-breaking plan but it was the consensus of the committee that the present plan was a better plan than those used in other states.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>Class 3A State Championship Game<br />Ada and Owasso 7-7 tie</h2>
+                <i class="fa fa-clock-o"></i><h5>December 6, 1974</h5>
+                <p>Ada and Owasso fought to a 7-7 tie in the 1974 Class C State Championship.</p>
+                <p>After the game Ada head coach Craig McBroom said he was sure his team had just won the school's 11th championship.  In the other dressing room, Owasso coach Gary Harper was sure his Rams had lost.  If Ada had known the rule, they may not have ran the ball to the sideline and not attempting to score on fourth down on the Ada 17 giving the ball back to Ada with 24 seconds.</p>
+                <p>Owasso did not learn of their winning of the championship until the team was in their locker room back in Owasso and head coach Gary Harper received a phone call.  A celebration broke out!</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>Both Team Representatives Meet</h2>
+                <h5>December 10, 1974</h5>
+                <p>The following Wednesday, OSSAA Executive Secretary Claude White had both representatives from the schools meet in OKC.  Ada high school principal Darryl Hill was quoted to say “We question whether that is a rule, we feel like we are state champions.”  But at the end of the day (and into the night), no decision was made.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>OSSAA Board of Directors Meet</h2>
+                <h5>December 11, 1974</h5>
+                <p>Ada came to the board to present a case for their winning the championship but the final outcome was the officials statement of the Board which referred to the Rule 14, Section 9 that “it applies only to those teams which must advance in an elimination series, whereby unanimously reaffirms it’s position that the use of penetrations, first downs and net yards shall not be interpreted to determine a winner in a final championship virtue of playing to a 7-7 tie, should each be declared champions for the 1974 Class 3A football championhip.”</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>New Plan Needed?</h2>
+                <h5>January 22, 1975 </h5>
+                <p>At the OSSAA Board of Directors Meeting, the Football Advisory Committee presented a recommendation which was approved to “conduct a survey of all football-playing schools to determine if they desire to retain the present plan for tie games or to adopt some form of a tie breaker where the score only would be used.”</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>Football Playing Schools Vote</h2>
+                <h5>February 1975</h5>
+                <p>The football playing schools voted 164-81 to have the Board of Directors revise a new plan for determining a winner in the case of a tie score.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>New Overtime Plan Proposed</h2>
+                <h5>April 2, 1975 </h5>
+                <p>Board of Directors, because of the overwhelming vote of 164-81, proposed a rule to adopt the “ten yard line overtime plan” found on page 79 of the current rule book in breaking a tie in any game.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>Football Tie-Breaker Referendum </h2>
+                <h5>May 1975</h5>
+                <p>Football playing schools voted 234 to 25 to alter Rule 14 to approve the "10 yard line plan".</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>New Overtime Plan Approved</h2>
+                <h5>August 16, 1975</h5>
+                <p>The “ten yard line overtime plan” wording was approved by the board and put in place for the upcoming season. </p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>Four 1975 Week #1 Overtime games</h2>
+                <h5>September 1975</h5>
+                <p><strong>Del City over US Grant 19-13</strong><br />Del City won the coin flip and head coach Henry Manning chose to go on defense first and his defense did not disappoint.  His plan was to hold them from scoring then kick a field goal to win.  They did hold them when they forced QB Tiger McDermott into a fumble.   When they got the ball, they gave the ball to tailback Steve Hammond, who, earlier in the game had fumbled on his first three carries and Hammond scored on his first chance for the 19-13 win.</p>
+                <p><strong>Gore over Warner 6-0 (OT)</strong></p>
+                <p><strong>Wetumka over Savanna 7-6 (OT)</strong></p>
+                <p><strong> Ryan over Temple 6-0 (2OT)</strong></p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>1975 Playoffs</h2>
+                <h5>November-December 1975</h5>
+                <p>Three playoff games go into overtime</p>
+                <p>- Class B 1st Round : Mooreland over Texhoma 18-12 (OT)<br />- aClass B 1st Round : Washington over Maud 27-19 (2OT)<br />- Class 3A Semifinals : Okmulgee over Stillwater 3-0 (OT) </p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>First OT Championship Game</h2>
+                <h5>December 1976</h5>
+                <p>Class 2A State Championship : Bristow downs Vinita 13-10</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>First (and only) Multiple OT Championship Game?</h2>
+                <h5>December 1994</h5>
+                <p>There have been seven State Championship games go into overtime including a three overtime game in the 1994 Class 5A title game in which Woodward defeated Broken Bow 35-28.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+                <h2>Last OT Championship Game?</h2>
+                <h5>December 2010</h5>
+                <p>The last championship overtime game was played in 2010.  There were actually two.  Class 4A Douglass defeated Wagoner 20-13 and Class A Woodland downing Stratford 6-0.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+                <h2>Number of Playoff OT Games?</h2>
+                <h5>Thru the 2018 Playoffs</h5>
+                <p>There have been a total of 136 overtime playoff games since 1975.</p>
+                <p>-105 : 1 OT games</p>
+                <p>-  20 : 2 OT games</p>
+                <p>-   6 : 3 OT games</p>
+                <p>-   2 : 4 OT games</p>
+                <p>-   1 : 5 OT game<br />&nbsp;&nbsp;-1991 Class 3A Quarterfinals - Seminole over Watonga 37-34</p>
+                <p>-   2 : 6 OT games<br />&nbsp;&nbsp;- 1983 Class 3A 1st Round - Coweta over Muldrow 20-13<br />&nbsp;&nbsp;- 1998 Class B 1st Round - Garber over Cyril 82-80</p>
+            </div>
+        </div>
+    </div>  
+    </form>
+</body>
+</html>

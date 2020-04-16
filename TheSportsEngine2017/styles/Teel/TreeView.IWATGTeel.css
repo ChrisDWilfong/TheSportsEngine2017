@@ -1,0 +1,19 @@
+.RadTreeView_IWATGTeel {
+  color: #5f5f5f; }
+  .RadTreeView_IWATGTeel .rtIn {
+    border-radius: 3px; }
+  .RadTreeView_IWATGTeel .rtChkTristate:hover {
+    color: #0e8aa0; }
+  .RadTreeView_IWATGTeel .rtLoadingIcon {
+    background-image: url('<%=WebResource("Telerik.Web.UI.Skins.IWATGTeel.Common.loading_small.gif")%>'); }
+  .RadTreeView_IWATGTeel .rtPlusHover,
+  .RadTreeView_IWATGTeel .rtMinusHover {
+    color: #0e8aa0; }
+  .RadTreeView_IWATGTeel .rtHover .rtIn {
+    border-color: #8fe6f5;
+    color: #333333;
+    background-color: #8fe6f5; }
+  .RadTreeView_IWATGTeel .rtSelected .rtIn {
+    border-color: #59c2d4;
+    color: #ffffff;
+    background-color: #59c2d4; }

@@ -1,0 +1,143 @@
+﻿/*normalize*/
+html, 
+body, 
+form {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font: normal 16px "Segoe UI", Arial, sans-serif;
+    color: #555555;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 720px) {
+    body {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        font-size: 0.65em;
+    }
+}
+a {
+  background: transparent;
+}
+
+img {
+  border: 0;
+}
+
+img.sport {
+    border: 0;
+    width: 80%;
+}
+
+
+button,
+input {
+  -webkit-appearance: none; 
+  cursor: pointer; 
+}
+
+hr {
+    border-width: 1px 0 0 0;
+    border-color: #767676;
+    border-style: solid;
+}
+
+/*typography*/
+h1, h2, h3, h4, h5, h6 {
+    line-height: normal;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    margin: 0.3em 0;
+}
+h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+h2 {
+    font-size: 1.875em;
+    text-align: center;
+    margin-top: -10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.125em
+}
+
+h5 {
+    font-size: 1em;
+    text-align: center;
+}
+
+h6 {
+    font-size: .875em;
+}
+
+hc {
+    text-align: center;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 720px) {
+#wrapper .RadMenu,
+div.RadMenuPopup,
+#wrapper .RadMenu_Default, #wrapper .RadMenu_Default a.rmLink  {
+    font-size: 1em;
+    }
+    img.sport {
+        border: 0;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #wrapper .RadMenu,
+    div.RadMenuPopup,
+    #wrapper .RadMenu_Default, #wrapper .RadMenu_Default a.rmLink {
+        font-size: 1em;
+        padding-right: 200px;
+    }
+}
+
+/*template*/
+#wrapper .t-container-fluid {
+    max-width: 100%;
+}
+
+#wrapper .RadButton {
+    font-size: 1em;
+}
+
+#wrapper .ImageButton {
+    max-width: 120%;
+}
+
+#wrapper .RadPageLayout {
+    text-align: center;
+}
+
+
+
+
+
+

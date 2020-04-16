@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+    <Group>
+    <Item Text="Home" NavigateUrl="http://www.iwasatthegame.com"></Item>
+    <Item Text="List of Champions" >
+      <Group>
+          <Item Text="Basketball" >
+              <Group Flow="Vertical">
+                <Item Text="Basketball Boys">
+                    <Group Flow="Vertical">
+                        <Item Text="State Champions (by Year)" NavigateURL="BKBStateChampionships.aspx" />
+                        <Item Text="# of Championships" NavigateURL="BKBStateChampionshipCount.aspx" />
+                        <Item Text="Coaches Championships" NavigateURL="BKBStateChampionshipCoaches.aspx"></Item>
+                    </Group>
+                </Item>
+                <Item Text="Basketball Girls">
+                    <Group Flow="Vertical">
+                        <Item Text="State Champions (by Year)" NavigateURL="BKGStateChampionships.aspx" />
+                        <Item Text="# of Championships (Girls)" NavigateURL="BKGStateChampionshipCount.aspx" />
+                        <Item Text="Coaches Championships" NavigateURL="BKGStateChampionshipCoaches.aspx"></Item>
+                    </Group>
+                </Item>
+              </Group>
+          </Item>
+          <Item Text="Football">
+            <Group Flow="Vertical">
+                <Item Text="State Champions (by Year)" NavigateURL="FBStateChampionships.aspx" />
+                <Item Text="# of Championships" NavigateURL="FBStateChampionshipCount.aspx" />
+                <Item Text="# of Runners-Up" NavigateURL="FBStateRunnerUpCount.aspx" />
+                <Item Text="Coaches Championships" NavigateURL="FBStateChampionshipCoaches.aspx"></Item>
+            </Group>              
+          </Item>
+       </Group>
+    </Item>
+  </Group>
+</Menu>
